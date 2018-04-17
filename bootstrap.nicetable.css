@@ -1,0 +1,606 @@
+.transparent {
+    background-color: transparent;
+}
+
+.transparent-white {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.transparent-white-2 {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.no-padding {
+	padding : 0;
+}
+
+.no-vpadding {
+	padding-top : 0;
+	padding-bottom : 0;
+}
+
+.no-hpadding {
+	padding-left : 0;
+	padding-right : 0;
+}
+
+.no-tpadding {
+	padding-top : 0;
+}
+
+.no-rpadding {
+	padding-right : 0;
+}
+
+.no-bpadding {
+	padding-bottom : 0;
+}
+
+.no-lpadding {
+	padding-left: 0;
+}
+
+.no-margin {
+	margin : 0;
+}
+
+.no-vmargin {
+	margin-top : 0;
+	margin-bottom : 0;
+}
+
+.no-hmargin {
+	margin-left : 0;
+	margin-right : 0;
+}
+
+.no-tmargin {
+	margin-top : 0;
+}
+
+.no-rmargin {
+	margin-right : 0;
+}
+
+.no-bmargin {
+	margin-bottom : 0;
+}
+
+.no-lmargin {
+	margin-left: 0;
+}
+
+.no-border {
+	border : 0;
+}
+
+.color-white {
+	color : white;
+}
+
+.full-width {
+	width : 100%;
+}
+
+.full-height {
+	height : 100%;
+}
+
+.color-yellow {
+	color : yellow;
+}
+
+.color-red {
+	color : red;
+}
+
+.color-white {
+	color : white;
+}
+
+.color-green {
+	color : green;
+}
+
+.tb {
+	display : table;
+	width : 100%;
+}
+.tb > .tr {
+	display : table-row;
+	width : 100%;
+}
+
+.tb > .tr > .td {
+	display : table-cell;
+	text-align : center;
+	vertical-align: middle;
+}
+
+.active {
+/* 	background-color : white; */
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tile, 
+.tile .tile-header, 
+.tile .tile-widget,
+.tile .tile-body, 
+.tile .tile-footer {
+   width : 100%;
+}
+
+.tile {
+    height : 100%;
+/*     padding : 0 10px; */
+    font-family: 'Microsoft yahei';
+}
+
+/* .tile.transparent-white, .tile .tile-widget { */
+/* 	border: 1px solid rgba(255, 255, 255, 0.1); */
+/* } */
+
+.tile .tile-header {
+	padding : 10px 0;
+}
+
+.tile .tile-header h1 {
+	display : inline-block;
+	margin : 0;
+	padding : 0;
+	font-weight: 400;
+    font-size: 24px;
+	color: white;
+}
+
+.tile .tile-header .tile-controls {
+	display : inline-block;
+	top : 5px;
+}
+
+.tile .tile-header .tile-controls.pull-left {
+	left : 10px;
+}
+
+.tile .tile-header .tile-controls.pull-right {
+	right : 10px;
+}
+
+.tile .tile-header .tile-controls a {
+	padding: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    font-size : 1.1em;
+	color : rgba(255, 255, 255, 0.4);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-header .tile-controls a:hover {
+	color : rgba(255, 255, 255, 0.8);
+	transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-trigger {
+	position : absolute;
+	top : 30px;
+	left : 0;
+	z-index : 999;
+}
+
+.tile .tile-trigger button {
+	width : 30px;
+	height : 30px;
+	padding : 0;
+	background-color : rgba(0, 0, 0, 0.2);
+	border-radius : 15px;
+	border : 2px solid white;
+}
+
+.tile .tile-widget {
+	padding : 10px;
+	border-radius: 4px;
+}
+
+.tile .tile-widget input {
+	color : rgba(0, 0, 0, 1)
+	border : 1px solid #CCC;
+	border-radius: 4px;
+}
+
+.tile .row:not(:last-child) {
+	margin-bottom : 10px;
+}
+
+.tile .tile-widget .btn.tile-btn {
+	border : 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    color : rgba(255, 255, 255, 0.5);
+    outline : none;
+}
+
+.tile .tile-widget .btn.tile-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color : rgba(255, 255, 255, 0.9);
+    transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-widget .btn.tile-btn:active {
+   	font-size : 1.2em;
+    transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-widget .btn.tile-btn.active,
+.tile .tile-widget .btn-group .btn.tile-btn.active,
+.tile .tile-widget .btn-group .btn.tile-btn.active:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+    color : rgba(255, 255, 255, 0.7);
+    transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-widget .btn-group .btn.tile-btn {
+	height : 3em;
+	font-weight : 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    color : rgba(255, 255, 255, 1);
+    transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-widget .btn-group .btn.tile-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color : rgba(255, 255, 255, 0.9);
+    transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-widget .btn-group .btn.tile-btn:active {
+	font-size : 0.8em;
+    background-color: rgba(0, 0, 0, 0.08);
+    color : rgba(255, 255, 255, 0.8);
+    transition: all 0.25s ease-in-out;
+}
+
+.tile .tile-widget .combo-select {
+    max-width: 100%;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    border: 1px solid #CCC!important;
+}
+
+.tile .tile-body {
+	padding : 10px 0;
+	color : #fafafa;
+	position : relative;
+	overflow : hidden;
+}
+
+.tile .tile-body .body-table {
+	overflow-y : auto;
+}
+
+.tile .tile-body table.table-striped > tbody > tr {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* .tile .tile-body table.table-hover > tbody > tr.active, */
+/* .tile .tile-body table.table-striped.table-hover > tbody > tr.active > td:not(.merged), */
+/* .tile .tile-body table.table-hover > tbody > tr.active > td, */
+.tile .tile-body table.table-striped.table-hover > tbody > tr.active > td:not(.merged),
+.tile .tile-body table.table-striped.table-hover > tbody > tr.active:hover > td:not(.merged) {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tile .tile-body table.table-striped > tbody > tr.merged > td.merged {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-bottom : 1px solid rgba(255, 255, 255, 0.03);
+	border-right : 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.tile .tile-body table.table-striped > tbody > tr.merged:nth-of-type(odd) > td.merged {
+/* 	background-color: rgba(255, 255, 255, 0.02); */
+}
+
+/* .tile .tile-body table.table-hover > tbody > tr:hover > td:not(.merged), */
+.tile .tile-body table.table-striped.table-hover > tbody > tr:hover > td:not(.merged) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tile .tile-body table.table-no-bordered > tbody > tr > td,
+.tile .tile-body table.table-no-bordered > thead > tr > th {
+	border : 0;
+}
+
+.tile .tile-body table.table-no-bordered > tbody > tr > td {
+	white-space:nowrap;
+}
+
+.tile .tile-body table.table-striped > tbody > tr > td.merged {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.tile .tile-body table.table-striped > tbody > tr:nth-of-type(odd) > td:not(.merged) {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.tile .tile-body table > tbody > tr > td {
+	vertical-align: middle;
+}
+
+.tile .tile-body table > tbody > tr > td a {
+	color : #39F7FF
+}
+
+.tile .tile-body table.table-sortable > tbody > tr:first-child > td {
+	border : 0;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th {
+	border : 0;
+	padding-bottom : 0;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable {
+	cursor : pointer;
+	color : #FAFAFA;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable:before {
+	content: "\f0dc";
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    float: right;
+    margin-top: 3px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-asc:before {
+	content: "\f0de";
+	 margin-top: 5px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-desc:before {
+	content: "\f0dd";
+	 margin-top: 0;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-numeric.sort-asc:before {
+	content: "\f162";
+    margin-top: 3px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-numeric.sort-desc:before {
+	content: "\f163";
+    margin-top: 3px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-amount.sort-asc:before {
+	content: "\f160";
+    margin-top: 3px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-amount.sort-desc:before {
+	content: "\f161";
+    margin-top: 3px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-amount.sort-asc:before {
+	content: "\f15d";
+    margin-top: 3px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-amount.sort-desc:before {
+	content: "\f15e";
+    margin-top: 3px;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th:after {
+	content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #FAFAFA;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable:hover:after {
+	background-color: #c1f2d3;
+	
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable:hover,
+.tile .tile-body table.table-sortable > thead > tr > th.sortable:hover {
+	color :  #c1f2d3;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-asc,
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-desc {
+    color : #00ffaf;
+}
+
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-asc:hover:after,
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-desc:hover:after,
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-asc:after,
+.tile .tile-body table.table-sortable > thead > tr > th.sortable.sort-desc:after {
+	background-color: #00ffaf;	
+}
+
+.tile .tile-body table > thead > tr .checkbox.check-transparent > label {
+	color: rgba(255, 255, 255, 0.5);
+	margin: 0;
+    line-height: 24px;
+}
+
+.tile .tile-body table > thead > tr > th > .checkbox.check-transparent > label:before,
+.tile .tile-body table > tbody > tr > td > .checkbox.check-transparent > label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 0px;
+    position: absolute;
+    left: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    transition: border 0.2s linear 0s,color 0.2s linear 0s;
+}
+
+.tile .tile-body table > thead > tr > th > .checkbox.check-transparent > label:before {
+	top : -2px;
+}
+
+.tile .tile-body table > tbody > tr > td > .checkbox.check-transparent > label:before {
+	top : -2px;
+}
+
+.tile .tile-body table > thead > tr > th > .checkbox.check-transparent > label:after {
+    left: 2.5px;
+    top: -5px;	
+}
+
+.tile .tile-body table > tbody > tr > td > .checkbox.check-transparent > label:after {
+    left: 2.5px;
+    top: -2px;	
+}
+
+/* .tile .tile-body table.table-sortable > tbody > tr > td:after { */
+/* 	content: ""; */
+/*     display: block; */
+/*     height: 2px; */
+/*     width: 100%; */
+/*     background-color: #FAFAFA; */
+/*     -webkit-border-radius: 4px; */
+/*     -moz-border-radius: 4px; */
+/*     -ms-border-radius: 4px; */
+/*     -o-border-radius: 4px; */
+/*     border-radius: 4px; */
+/*     -webkit-transition: all 0.2s linear; */
+/*     -moz-transition: all 0.2s linear; */
+/*     transition: all 0.2s linear; */
+/* } */
+
+.tile .tile-footer {
+	position:absolute;
+	bottom:0;
+	border-radius: 4px;
+}
+
+.tile .tile-footer .row {
+	margin-left : 0;
+	margin-right : 0;
+}
+
+
+.tile .tile-footer ul {
+	padding : 10px;
+	vertical-align: middle;
+}
+
+.tile .tile-footer ul.pagination > li {
+	display:inline-flex;
+/* 	background-color: white; */
+    margin : 0 1px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0;
+    border-radius : 4px;
+	cursor : pointer;
+}
+
+.tile .tile-footer ul.pagination > li.active,
+.tile .tile-footer ul.pagination > li.active:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tile .tile-footer ul.pagination > li:hover {
+    background-color: rgba(0, 0, 0, 0.2);	
+}
+
+.tile .tile-footer ul.pagination > li:first-child {
+	border-radius: 20px 2px 2px 20px;
+}
+
+.tile .tile-footer ul.pagination > li:last-child {
+	border-radius: 2px 20px 20px 2px;
+}
+.tile .tile-footer ul.pagination > li:first-child.disabled,
+.tile .tile-footer ul.pagination > li:last-child.disabled {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tile .tile-footer ul.pagination > li > a {
+	padding: 3px 6px;
+    color: rgba(255, 255, 255, 0.7);
+	font-weight: 900;  
+    background-color: transparent;
+    border: 0;
+	cursor : pointer;
+}
+
+.tile .tile-footer ul.pagination > li.active > a,
+.tile .tile-footer ul.pagination > li.active:hover > a {
+	color: gray;
+}
+
+.tile .tile-footer ul.pagination > li:hover > a {
+	color : #fafafa;
+}
+
+.tile .tile-footer ul.pagination > li:first-child > a,
+.tile .tile-footer ul.pagination > li:last-child > a {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.tile .tile-footer ul.pagination > li:first-child.disabled > a,
+.tile .tile-footer ul.pagination > li:last-child.disabled > a {
+	color: rgba(0, 0, 0, 0.4);
+	cursor : not-allowed;
+}
+
+/*****************��Ӧʽ��ʽ*******************/
+@media  only screen and (max-width: 991px) {
+	.tile .tile-widget {
+		position : absolute;
+		top : 0;
+		left : 0;
+/* 		margin-top : -46px; */
+/* 		padding-top : 66px; */
+		height : calc(100% - 35px);
+		overflow-y : auto;
+		background-color : rgba(0, 0, 0, 0.5);
+		z-index : 998;
+	}
+	
+	.tile .row .col-sm-12:not(:last-child),
+	.tile .row .col-xs-12:not(:last-child) {
+		margin-bottom : 10px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.tile .tile-widget {
+		display : block!important;
+	}
+
+}
